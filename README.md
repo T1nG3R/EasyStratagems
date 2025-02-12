@@ -16,19 +16,28 @@ Default keybinds for every drop-down menu:
 
 You will be able to change these in future updates (I hope there will be some).
 
-
-
 ## Installation & Usage
 1. Clone the repository:
    ```sh
    git clone https://github.com/T1nG3R/EasyStratagems.git
    cd EasyStratagems
    ```
-2. Install dependencies:
+2. Create and activate a virtual environment:
+   - **Windows:**
+     ```sh
+     python -m venv env
+     env\Scripts\activate
+     ```
+   - **Linux/macOS:**
+     ```sh
+     python3 -m venv env
+     source env/bin/activate
+     ```
+3. Install dependencies:
    ```sh
    pip install -r requirements.txt
    ```
-3. **Configure in-game key bindings:**  
+4. **Configure in-game key bindings:**  
    To ensure the program works correctly, go to:
    ```
    Options -> Mouse & Keyboard -> Change bindings -> Stratagem
@@ -36,12 +45,11 @@ You will be able to change these in future updates (I hope there will be some).
    Set the bindings exactly as shown in the image:  
    ![Key Bindings](https://i.imgur.com/YemvTRL.png)
 
-4. Run the application:
+5. Run the application:
    ```sh
    python main.py
    ```
 
-## TODO
 - [ ] Change MainWindow title (i forgor 💀)
 - [ ] Support for other hotkeys
 - [ ] Add mission stratagems
