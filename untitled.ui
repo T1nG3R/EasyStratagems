@@ -25,6 +25,10 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/icons/MainWindowIcon.ico</normaloff>:/icons/MainWindowIcon.ico</iconset>
+  </property>
   <property name="styleSheet">
    <string notr="true">QToolTip
 {

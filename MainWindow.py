@@ -27,6 +27,9 @@ class Ui_MainWindow(object):
         MainWindow.resize(600, 400)
         MainWindow.setMinimumSize(QSize(600, 400))
         MainWindow.setMaximumSize(QSize(600, 400))
+        icon = QIcon()
+        icon.addFile(u":/icons/MainWindowIcon.ico", QSize(), QIcon.Mode.Normal, QIcon.State.Off)
+        MainWindow.setWindowIcon(icon)
         MainWindow.setStyleSheet(u"QToolTip\n"
 "{\n"
 "     border: 1px solid black;\n"

@@ -50,7 +50,8 @@ You will be able to change these in future updates (I hope there will be some).
    python main.py
    ```
 
-- [ ] Change MainWindow title (i forgor 💀)
+## TODO
+- [x] Change MainWindow title (i forgor 💀)
 - [ ] Support for other hotkeys
 - [ ] Add mission stratagems
 - [ ] Improve UI layout (grid for dropdowns)

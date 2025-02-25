@@ -1,3 +1,4 @@
+import ctypes
 import sys
 import time
 
@@ -194,6 +195,9 @@ class MainWindow(QMainWindow, Ui_MainWindow):
 
 
 if __name__ == '__main__':
+    if sys.platform == "win32":
+        myappid = u'EasyStratagems'
+        ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
     app = QApplication(sys.argv)
     window = MainWindow()
     window.show()
