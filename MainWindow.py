@@ -573,7 +573,7 @@ class Ui_MainWindow(object):
     # setupUi
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"MainWindow", None))
+        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"EasyStratagems", None))
         self.select_label.setText(QCoreApplication.translate("MainWindow", u"SELECT YOUR STRATAGEMS", None))
         self.comboBox.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Select first stratagem", None))
         self.comboBox_2.setPlaceholderText(QCoreApplication.translate("MainWindow", u"Select second stratagem", None))
